@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="8" tilewidth="32" tileheight="32" nextobjectid="5">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" width="256" height="32"/>
+ </tileset>
+ <layer name="ground" width="80" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYWoARiJmogGGAkBg2fdSwH91OegEAWHAAXg==
+  </data>
+ </layer>
+ <objectgroup name="crystals">
+  <object id="1" x="1182" y="214">
+   <ellipse/>
+  </object>
+  <object id="2" x="1412" y="215">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="goal">
+  <object id="4" x="1577" y="194"/>
+ </objectgroup>
+</map>

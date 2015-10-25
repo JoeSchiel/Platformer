@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="8" tilewidth="32" tileheight="32" nextobjectid="78">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" width="256" height="32"/>
+ </tileset>
+ <layer name="ground" width="80" height="8">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwkYoXgUjAJaAvQ0RmqaIzadMuLAo2BkAmqkO2qqIwYwAzELELMCMRsVzR0F1AegeGdiQI0zdiDmoMA8Ysoscso2mHqYe5EBMxYxegAAxcgAVA==
+  </data>
+ </layer>
+ <objectgroup name="goal">
+  <object id="77" x="1797" y="102"/>
+ </objectgroup>
+ <objectgroup name="crystals">
+  <object id="2" x="335" y="80">
+   <ellipse/>
+  </object>
+  <object id="3" x="726" y="211">
+   <ellipse/>
+  </object>
+  <object id="4" x="1213" y="84">
+   <ellipse/>
+  </object>
+  <object id="7" x="1283" y="85">
+   <ellipse/>
+  </object>
+  <object id="75" x="783" y="150">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="health">
+  <object id="8" x="946" y="162"/>
+ </objectgroup>
+ <objectgroup name="spikes">
+  <object id="49" x="317" y="113"/>
+  <object id="50" x="509" y="49"/>
+  <object id="55" x="444" y="113"/>
+  <object id="57" x="381" y="177"/>
+  <object id="58" x="252" y="177"/>
+  <object id="59" x="637" y="241"/>
+  <object id="60" x="765" y="177"/>
+  <object id="61" x="829" y="113"/>
+  <object id="63" x="957" y="241"/>
+  <object id="64" x="1087" y="177"/>
+  <object id="69" x="1149" y="113"/>
+  <object id="70" x="1597" y="241"/>
+  <object id="71" x="1693" y="177"/>
+ </objectgroup>
+</map>

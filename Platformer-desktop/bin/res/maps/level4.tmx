@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="8" tilewidth="32" tileheight="32" nextobjectid="125">
+ <tileset firstgid="1" name="blocks" tilewidth="32" tileheight="32">
+  <image source="blocks.png" width="96" height="32"/>
+ </tileset>
+ <tileset firstgid="4" name="ground" tilewidth="32" tileheight="32">
+  <image source="ground.png" width="256" height="32"/>
+ </tileset>
+ <objectgroup name="crystals">
+  <object id="105" x="245" y="210">
+   <ellipse/>
+  </object>
+  <object id="107" x="268" y="211">
+   <ellipse/>
+  </object>
+  <object id="111" x="290" y="211">
+   <ellipse/>
+  </object>
+  <object id="112" x="345" y="211">
+   <ellipse/>
+  </object>
+  <object id="113" x="364" y="212">
+   <ellipse/>
+  </object>
+  <object id="114" x="428" y="213">
+   <ellipse/>
+  </object>
+  <object id="115" x="485" y="214">
+   <ellipse/>
+  </object>
+  <object id="119" x="540" y="213">
+   <ellipse/>
+  </object>
+  <object id="120" x="662" y="437" width="127" height="17">
+   <ellipse/>
+  </object>
+  <object id="122" x="966" y="212">
+   <ellipse/>
+  </object>
+  <object id="123" x="1037" y="213">
+   <ellipse/>
+  </object>
+  <object id="124" x="1101" y="213">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="ground" width="40" height="8">
+  <data encoding="base64" compression="zlib">
+   eJztjksKACAIBVtoH7v/fVMYIdq3c2BI7fVprSiK4h/iqtvdwWzgZD/q7S5qZW6sQnY9d2+ySp/vpPc5I5//if4ASsgA6A==
+  </data>
+ </layer>
+ <objectgroup name="goal">
+  <object id="65" x="1174" y="175"/>
+ </objectgroup>
+ <objectgroup name="spikes"/>
+ <objectgroup name="health">
+  <object id="121" x="818" y="214">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
